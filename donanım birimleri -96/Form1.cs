@@ -20,7 +20,7 @@ namespace donanım_birimleri__96
         private void btnKontrol_Click(object sender, EventArgs e)
         {
             string secim;
-            secim = lbDonanim.SelectedItems.ToString();
+            secim = lbDonanim.SelectedItem.ToString();
 
             if(secim == "Mouse" || secim == "Klavye" || secim == "Kamera" || secim == "Tarayıcı")
             // veya sözcüğünü ifade eder "||"
